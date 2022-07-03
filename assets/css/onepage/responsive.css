@@ -1,0 +1,413 @@
+@media (max-width: 1400px){
+    a.nav-link {
+        margin-right: 20px;
+    }
+}
+@media (max-width: 1199px){
+    .product-lists .slick-list .slick-track{
+        margin-left: 0px;
+    }
+    .navbar{
+        padding: 0 1.2rem;
+    }
+    .navbar-brand{
+        margin-right: 0.2rem;
+    }
+    span.phone{
+        margin-left: 0;
+    }
+    a.nav-link {
+        margin-right: 12px;
+    }
+    .progress-nav {
+        right: 1rem;
+    }
+    .navbar-left{
+        left: 1rem;
+    }
+    .single-box a{
+        font-size: 15px;
+    }
+    .service{
+        padding-top: 120px;
+    }
+    .service-area{
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1024px) {
+    /* Nav */
+    .navbar .nav {
+        display: none;
+    }
+    .navbar .navbar-brand img {
+        width: 80px;
+    }
+    .navbar-left {
+        display: none;
+    }
+     /* Nav */
+
+     /* Hero Section */
+    .hero-area .video-area-bg a {
+        height: 100px;
+        width: 100px;
+    }
+    .hero-area .info-content span {
+        font-size: 18px;
+    }
+    .hero-area .info-content h1 {
+        font-size: 90px;
+    }
+    .hero-area .info-content h1 span {
+        font-size: 90px;
+    }
+    /* Hero Section */
+
+    /* Education Section */
+    .product-item button.slick-prev {
+        left: 265px;
+    }
+    .product-item button.slick-next {
+        left: 350px;
+    }
+    .edu-slider {
+        padding-right: 30px;
+    }
+    /* Education Section */
+
+    /* Skill Section */
+    .min-skill-content {
+        margin-top: 65px;
+        padding-right: 20px;
+    }
+    .dl_fp_skils_content {
+        padding-right: 30px;
+    }
+    /* Skill Section */
+
+    /* Articles */
+    .articles .box {
+        padding-right: 0;
+        padding-top: 45px;
+    }
+    .single-box a i {
+        margin-left: 10px;
+    }
+    img.img-box {
+        width: 90%;
+        bottom: -20px;
+        left: 110%;
+    }
+    /* Articles */
+
+    /* Contact Section */
+    .dl_contact_form_wrapper.dl_fp_form_style.dl_fp_form_style .dl_title {
+        line-height: 38px;
+    }
+    .dl_contact_form_wrapper {
+        padding-right: 30px;
+    }
+    /* Contact Section */
+
+    /* Service Section */
+    .service #accordion {
+        padding-right: 30px;
+    }
+    /* Service Section */
+
+    /* Testimonial Section */
+    .testomonial_content-slide {
+        padding-right: 30px;
+    }
+    .dl_fp_testomonial_content button {
+        top: 115%;
+    }
+    /* Testimonial Section */
+}
+
+@media (max-width: 768px) {
+    /* Logo */
+    .navbar-brand img {
+        margin-top: 5px;
+    }
+    /* Logo */
+    /* Hero Section */
+    .hero-area {
+        background-position: center !important;
+    }
+    .hero-content {
+        margin-left: -12px;
+    }
+    /* Hero Section */
+
+    /* Edu */
+    .education-area .section-title {
+        padding-bottom: 20px;
+    }
+    .section-title h2 {
+        font-size: 45px;
+    }
+    .edu-slider {
+        padding-right: 0;
+    }
+    /* Edu */
+
+    /* Product Section */
+    .single-product-item span {
+        font-size: 45px;
+    }
+    .single-product-item a {
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .product-item button.slick-prev {
+        left: 126px;
+    }
+    .product-item button.slick-next {
+        left: 200px;
+    }
+    /* Product Section */
+
+    /* Product Two Section */
+    .single-product-item2 a {
+        font-size: 45px;
+    }
+    .product2 a.see-pro {
+        font-size: 16px;
+        margin-top: -20px;
+    }
+    /* Product Two Section */
+
+    /* Skill Section */
+    .skill-content h2 {
+        font-size: 45px;
+    }
+    .min-skill-content {
+        margin-top: 0;
+        padding-right: 0;
+    }
+    .progress_bar_wrapper {
+        margin-top: 60px;
+    }
+    .dl_fp_skils_content {
+        padding-right: 0;
+        padding-top: 25px;
+    }
+    /* Skill Section */
+
+    /* Testimonials Section */
+    .dl_fp_testomonial_content {
+        padding-top: 85px;
+    }
+    .dl_fp_testimonial_title h2 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    .testomonial_content-slide {
+        padding-right: 0;
+    }
+    .dl_fp_testomonial_content button {
+        top: 110%;
+    }
+    /* Testimonials Section */
+
+    /* Articles Section */
+    .articles .box {
+        padding-top: 0;
+        padding-right: 30px;
+    }
+    .single-box {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px 0;
+    }
+    .single-box a {
+        font-size: 15px;
+    }
+    .single-box span {
+        margin-top: -10px;
+    }
+    img.img-box {
+        width: 110%;
+        height: 100%;
+        bottom: 0;
+        left: 105%  ;
+    }
+    /* Articles Section */
+
+    /* Contact Section */
+    .dl_contact_form_wrapper.dl_fp_form_style.dl_fp_form_style .dl_title {
+        font-size: 28px;
+    }
+    .dl_contact_form_wrapper.dl_fp_form_style .dl_form_group_style_02 .dl_control_label {
+        top: 5px;
+    }
+    .contact_form_content h2 {
+        font-size: 45px;
+    }
+    .dl_contact_form_wrapper {
+        padding-right: 0;
+    }
+    /* Contact Section */
+
+    /* Service Section */
+    .service #accordion {
+        padding-right: 0;
+    }
+    /* Service Section */
+    .single-product-list span{
+        font-size: 40px;
+    }
+    .single-product-list a{
+        margin-top: 10px;
+    }
+    .single-product-list{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Hero Section */
+    .hero-content {
+        margin-left: 0;
+    }
+    /* Hero Section */
+
+    /* Nav Bottom */
+    .navbar-bottom {
+        display: none;
+    }
+    /* Nav Bottom */
+
+    /* Experience Section */
+    .experience-content {
+        margin-top: 85px;
+    }
+    /* Experience Section */
+
+    /* Skill Section */
+    .dl_fp_skils_content {
+        padding-top: 0;
+    }
+    .progress_bar_wrapper {
+        margin-top: 0;
+    }
+    /* Skill Section */
+
+    /* Service Section */
+    .service-area {
+        margin-top: 85px;
+    }
+    /* Service Section */
+
+    /* Articles Section */
+    .articles .box {
+        padding-bottom: 260px;
+    }
+    img.img-box {
+        width: 92%;
+        height: 45%;
+        left: 0%;
+        bottom: -45px;
+    }
+    .single-box a i {
+        padding: 10px 11px;
+        position: relative;
+        top: 10px;
+    }
+    /* Articles Section */
+
+    /* Edu */
+    .education-area .section-title {
+        padding-bottom: 0;
+    }
+    .education-contents {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        padding-right: 15px;
+    }
+    .title-area h5 {
+        margin: 5px 0;
+    }
+    /* Edu */
+
+    /* Testimonials Section */
+    .dl_fp_testomonial_content {
+        padding-top: 20px;
+    }
+    /* Testimonials Section */
+
+    /* Contact Section */
+    .dl_contact_form_wrapper.dl_fp_form_style.dl_fp_form_style .dl_title {
+        font-size: 26px;
+    }
+    .contact_form_content h3 {
+        margin: 0 0 5px;
+        font-size: 14px;
+    }
+    .dl_contact_form_wrapper.dl_fp_form_style .dl_form_group_style_02 .dl_control_label {
+        top: 6px;
+    }
+    .dl_contact_form_wrapper.dl_fp_form_style .dl_contact_form_btn {
+        font-size: 11px;
+    }
+    /* Contact Section */
+
+    /* Mobile Menu */
+    .navbar-mobile a.nav-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    /* Mobile Menu */
+
+    /* Product Two Section */
+    .product2-slider {
+        flex-direction: column;
+    }
+    /* Product Two Section */
+}
+
+@media (max-width: 480px) {
+    /* Main Nav */
+    .navbar .navbar-brand img {
+        width: 70px;
+    }
+    /* Main Nav */
+
+    /* Hero Section */
+    .hero-area .video-area-bg a {
+        height: 80px;
+        width: 80px;
+    }
+    .hero-area .video-area-bg a i {
+        font-size: 20px;
+    }
+    .hero-area .info-content span {
+        font-size: 16px;
+    }
+    .hero-area .info-content h1 {
+        font-size: 65px;
+    }
+    .hero-area .info-content h1 span {
+        font-size: 65px;
+        line-height: 82px;
+    }
+    /* Hero Section */
+
+    /* Experience Section */
+    .min-experience h2 {
+        font-size: 120px;
+    }
+    .min-experience h2::before {
+        font-size: 55px;
+    }
+    /* Experience Section */
+
+    /* Education Section */
+    .edu-slider button {
+        display: none !important;
+    }
+    /* Education Section */
+}
