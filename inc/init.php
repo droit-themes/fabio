@@ -62,6 +62,12 @@ require fabio_THEMEROOT_DIR . '/inc/one_click_demo_config.php';
 
 
 /**
+ * fabio Demo import
+ */
+require fabio_THEMEROOT_DIR . '/inc/one-page-walker.php';
+
+
+/**
  * Load Jetpack compatibility file.
  */
 if ( defined( 'JETPACK__VERSION' ) ) {

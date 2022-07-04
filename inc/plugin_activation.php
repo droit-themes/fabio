@@ -39,7 +39,7 @@ function fabio_resister_required_plugin() {
         array(
             'name'               => esc_html__( 'fabio Core', 'fabio' ), // The plugin name.
             'slug'               => 'fabio-core', // The plugin slug (typically the folder name).
-            'source'             => 'https://fabio.droitlab.com/downloadfile/medical-core.zip', // The plugin source.
+            'source'             => 'https://fabio.droitlab.com/downloadfile/fabio-core.zip', // The plugin source.
             'required'           => true, // If false, the plugin is only 'recommended' instead of required.
             'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
             'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
@@ -57,36 +57,6 @@ function fabio_resister_required_plugin() {
         array(
             'name'               => esc_html__( 'Droit Addons For Elementor', 'fabio' ),
             'slug'               => 'droit-elementor-addons',
-            'required'           => true,
-        ),
-
-        array(
-            'name'               => esc_html__( 'woocommerce', 'fabio' ),
-            'slug'               => 'woocommerce',
-            'required'           => true,
-        ),
-
-        array(
-            'name'               => esc_html__( 'YITH WooCommerce Compare', 'fabio' ),
-            'slug'               => 'yith-woocommerce-compare',
-            'required'           => true,
-        ),
-
-        array(
-            'name'               => esc_html__( 'Perfect Brands for WooCommerce', 'fabio' ),
-            'slug'               => 'perfect-woocommerce-brands',
-            'required'           => true,
-        ),
-
-        array(
-            'name'               => esc_html__( 'YITH WooCommerce Wishlist', 'fabio' ),
-            'slug'               => 'yith-woocommerce-wishlist',
-            'required'           => true,
-        ),
-
-        array(
-            'name'               => esc_html__( 'Advanced Custom Fields', 'fabio' ),
-            'slug'               => 'advanced-custom-fields',
             'required'           => true,
         ),
 

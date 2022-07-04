@@ -83,11 +83,13 @@ if ( ! function_exists( 'fabio_setup' ) ) :
 		add_theme_support( 'post-thumbnails' );
 
 		// This theme uses wp_nav_menu() in one location.
-		register_nav_menus(
-			array(
-				'main_menu' => esc_html__( 'Main Menu', 'fabio' ),
-			)
-		);
+		
+
+		register_nav_menus(array(
+            'main_menu' => esc_html__('Main Menu', 'fabio'),
+            'one_page_menu' => esc_html__('One Page Menu', 'fabio'),
+        ));
+
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
