@@ -14,18 +14,16 @@ get_header('onepage');
 </div>
 
 <!-- Scrollbar -->
-<div class="progress-nav">
+<!-- <div class="progress-nav">
 	<ul class="navbar-nav">
 		<li data-menuanchor="home" class="active"></li>
+		<li data-menuanchor="testimonial"></li>
+		<li data-menuanchor="blog"></li>
 		<li data-menuanchor="experience"></li>
-		<li data-menuanchor="education"></li>
-		<li data-menuanchor="service"></li>
-		<li data-menuanchor="product"></li>
 		<li data-menuanchor="skills"></li>
-		<li data-menuanchor="testimonials"></li>
-		<li data-menuanchor="articles"></li>
+		<li data-menuanchor="product"></li>
 		<li data-menuanchor="contact"></li>
 	</ul>
-</div>
+</div> -->
 <?php
 get_footer('onepage');

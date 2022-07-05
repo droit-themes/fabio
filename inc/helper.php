@@ -185,7 +185,8 @@ function fabio_fonts_url() {
 
     /* Body font */
     if (  'off' !== 'on'  ) {
-        $fonts[] = "Poppins:400,500,600,700,800,900";
+        $fonts[] = "DM Sans:400,500,600,700,800,900";
+        $fonts[] = "Noto Sans:400,500,600,700,800,900";
     }
 
     $is_ssl = is_ssl() ? 'https' : 'http';
