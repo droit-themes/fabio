@@ -455,10 +455,12 @@ font-family: 'Poppins', sans-serif;
 @media (max-width:425px){
     .logged-in.admin-bar .navbar_fixed .navbar {
         margin-top: 0px !important;
-        }
     }
+}
 
-
+.navbar{
+    max-height: 100px;
+}
 
 .navbar_fixed .navbar{
     box-shadow: 0 4px 6px 0 rgb(131 131 131 / 16%);
@@ -495,9 +497,7 @@ text-align: center;
 .text-white .post-meta a:hover{
     color: #323433; 
 }
-.blog_single_info h1{
-    margin: 0;
-}
+
 .entry-content h1{
     margin: 0;
 }
@@ -576,12 +576,18 @@ a.comment_link {
     border: 0 !important;
     padding: 11px 23px !important;
     cursor: pointer !important;
-    background: #54a2fa !important;
+    background: #eb9532 !important;
     color: #FFFFFF !important;
     font-size: 16px !important;
     line-height: 29px !important;
     font-weight: 500 !important;
 }
+
+.comment-form .btn-comment-form:hover{
+    background: #181b31 !important;
+    color: #FFFFFF !important;  
+}
+
 
 .drdt_navmenu .menu-item .sub-menu {
     min-width: 180px;
@@ -1109,7 +1115,6 @@ li.wc-block-grid__product {
 @media (max-width: 1024px){
 	.menu > .nav-item.submenu .dropdown-menu{
         padding-left: 15px !important;
-        position: relative;
         left:0;
     }
 }
@@ -1348,14 +1353,14 @@ span.post_date_loop {
     padding-right: 15px;
 }
 .text-white .page-title, .text-white h2{
-	color:#323433;
+	color:#000000;
     font-family: "Poppins", Sans-serif;
     font-size: 50px;
     font-weight: 600;
     line-height: 1.2;
 }
 .breadcrumbs span {
-    color: #323433;
+    color: #000000;
 }
 @media (min-width: 1200px){	
     .container {
@@ -1527,12 +1532,12 @@ span.post_date_loop {
 }
 
 .blog_breadcrumbs_area_two, .blog_breadcrumbs_area_two.archive-banner, .blog_breadcrumbs_area_two.banner-404, .blog_breadcrumbs_area_two.blog-single-page, .blog_breadcrumbs_area_two.page-banner{
-    background-color: #4290ec26 !important;
+    background-color: #f6d0a5 !important;
 }
 
 /*  2nd soft-reject */
 .post-page-numbers {
-    background: #55a2fc;
+    background: #eb9532;
     color: #FFFFFF !important;
     text-decoration: none;
     width: 44px;
@@ -1555,6 +1560,8 @@ span.post_date_loop {
 
 .comment_box .comments_item .content h4{
     color: #06163a;
+    margin-bottom: 8px;
+    font-size: 20px;
 }
 
 .menu>.nav-item i {
@@ -1568,6 +1575,9 @@ span.post_date_loop {
         top: 44%;
         font-size: 14px;
         right: 5px;
+    }
+    .menu{
+        padding-left: 15px !important;
     }
     .sec_padding {
         padding-top: 40px;
@@ -1588,16 +1598,16 @@ span.post_date_loop {
 }
 
 .woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button, .woocommerce .woocommerce-message .button, .woocommerce-page .woocommerce-error .button, .woocommerce-page .woocommerce-info .button, .woocommerce-page .woocommerce-message .button{
-    background: #54A2FA;
+    background: #eb9532;
     color: #FFFFFF;
     margin-top:-5px;
 }
 .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover{
-    background:#0d6efd;
+    background:#eb9532;
     color: #FFFFFF;	
 }
 .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
-    background:#54A2FA;
+    background:#eb9532;
     color: #FFFFFF;	  
 }
 .woocommerce-message::before {
@@ -1622,7 +1632,7 @@ span.post_date_loop {
 	font-weight:500;
 }
 .grouped_form .single_add_to_cart_button.button{
-	background: #54A2FA !important;
+	background: #eb9532 !important;
     padding: 20px 50px
 }
 
@@ -1723,3 +1733,11 @@ width: 49%;
 .wishlist-items-wrapper .button.yith-wcqv-button{
 	display:none;
 }
+
+.navbar-toggler:focus, .form-control:focus{
+    box-shadow: none !important;
+    border-color: #FFFFFF !important;
+}
+
+
+

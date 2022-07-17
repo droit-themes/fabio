@@ -3,9 +3,9 @@ Theme Name: Fabio
 Theme URI: https://fabio.droitlab.com/
 Author: DroitThemes
 Author URI: https://themeforest.net/user/droitthemes
-Description: fabio is a fully responsive WooCommerce WordPress theme for creating highly functional pharmacy shops, dentists, drugstores, clinics, hospitals, medical & healthcare stores, and all kinds of health and wellness marketplace businesses.
+Description: Fabio Wood is a creative, modern template for design studios, agencies, startup companies, IT companies, corporate, business and so on. It comes with modern, beautiful UI design with solid & robust UX, so you can build your new website or rebrand your current website with the most sleek & beautiful looks and professional UX possible.
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-Version: 0.0.5
+Version: 0.0.1
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Requires at least: 5.0
@@ -843,3 +843,7 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+ol.wp-block-latest-comments{
+	padding-left: 0px;
+  }

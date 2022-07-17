@@ -25,8 +25,7 @@ $blog_sidebar = fabio_opt('blog_layout');
 		 * hook --_fabio_banner -- 10
 		 */
 		$banner_id = get_themebuilder_Id(get_the_ID(), 'banner');		 
-		do_action('fabio_banner_content
-', $banner_id, 'search');
+		do_action('fabio_banner_content', $banner_id, 'search');
 		
 
 			fabio_wrapper_start( $blog_sidebar );

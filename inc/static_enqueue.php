@@ -33,11 +33,9 @@ function fabio_scripts() {
     /**
      * Enqueueing Scripts
      */
-
-
+	
 	if(is_page_template('one_page.php')){
 
-		
 		wp_enqueue_script( 'fabio-popper-min', get_theme_file_uri('/assets/js/onepage/popper.min.js'),  array('jquery'), fabio_VERSION, true );
 		wp_enqueue_script( 'fabio-bootstrap-min', get_theme_file_uri('/assets/js/onepage/bootstrap.min.js'),  array('jquery'), '4.4.1', true );
 		wp_enqueue_script( 'fabio-owlcarouselmin', get_theme_file_uri('/assets/js/onepage/owl.carousel.min.js'),  array('jquery'), '2.3.4', true );

@@ -1,10 +1,4 @@
 
-@import url('bootstrap.min.css');
-@import url('magnific-popup.css');
-@import url('owl.carousel.min.css');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Noto+Sans:wght@400;700&display=swap');
-
-
 body {
     font-family: 'DM Sans', sans-serif;
     font-size: 1rem;
@@ -27,8 +21,6 @@ button:focus {outline:0;}
 
 
 /* 1.2 Typography */
-
-
 
 h1,
 .h1 {
