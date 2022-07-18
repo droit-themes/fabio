@@ -1,4 +1,4 @@
-﻿jQuery(function () {
+﻿﻿jQuery(function () {
 	'use strict';
 
     /*Slick*/
@@ -30,10 +30,11 @@
                 }
               ]
         });
-        jQuery('.edu-slider').slick({
+        jQuery('.edu-slider-itmes').slick({
             infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
+            slidesToShow: 3,
+            slidesToScroll: 2,
+			vertical: true,
             dots: true,
             arrows: true,
             autoplay: true,
@@ -43,18 +44,63 @@
 			'<button type="button" class="slick-next"><i class="fas fa-long-arrow-alt-right"></i></button>',
             autoplaySpeed: 2000
         });
-        jQuery('.product-item').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: true,
-            autoplay: true,
-            prevArrow:
+        $('.product-item').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: true,
+		autoplay: true,
+		fade: true,
+		prevArrow:
 			'<button type="button" class="slick-prev"><i class="fas fa-long-arrow-alt-left"></i></button>',
-		    nextArrow:
+		nextArrow:
 			'<button type="button" class="slick-next"><i class="fas fa-long-arrow-alt-right"></i></button>',
-            autoplaySpeed: 2000
-        });
+		autoplaySpeed: 2000,
+		asNavFor: '.product-lists',
+	});
+	$('.product-lists').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
+		arrows: false,
+		infinite: true,
+		centerMode: true,
+		centerPadding: '100px',
+		asNavFor: '.product-item',
+		dots: false,
+		responsive: true,
+		responsive: [
+			{
+				breakpoint: 1199,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					centerMode: true,
+					centerPadding: '50px',
+				},
+			},
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					centerPadding: '50px',
+				},
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					centerPadding: '30px',
+					variableWidth: true,
+				},
+			},
+			// You can unslick at a given breakpoint now by adding:
+			// settings: "unslick"
+			// instead of a settings object
+		],
+	});
   	
 
         $('.testimonial_slider_items').slick({
@@ -207,30 +253,63 @@
     }
     
     //fillbar js
-    // $.fn.rProgressbar = function(options) {
-    //     options = $.extend({ percentage: null, ShowProgressCount: true, duration: 1000, 
-    //     borderRadius: '4px', width: '100%' }, options);
-    //     $.options = options;
-    //     return this.each(function(index, el) {
-    //         $(el).html('<div class="progressbar"><div class="proggress"></div><div class="percentCount"></div></div>');
-    //         var lineProgressBarInit = function() {
-    //             var progressFill = $(el).find('.proggress');
-    //             var progressBar = $(el).find('.progressbar');
-    //             progressFill.css({ backgroundColor: options.fillBackgroundColor, height: options.height, borderRadius: options.borderRadius });
-    //             progressBar.css({ width: options.width, backgroundColor: options.backgroundColor, borderRadius: options.borderRadius });
-    //             progressFill.animate({ width: options.percentage + "%" }, { step: function(x) { if (options.ShowProgressCount) { $(el).find(".percentCount").text(" "+Math.round(x) + "%"); } }, duration: options.duration });
-    //         }
-    //         $(this).waypoint(lineProgressBarInit, { offset: '100%', triggerOnce: true });
-    //     });
-    // }
-    //fillbar js
-    // $(".fillbar").each(function () {
-    //     var t = $(this),
-    //         a = $(this).data("percentage")
-    //     t.rProgressbar({
-    //         percentage: a
-    //     });
-    // })
+	$.fn.rProgressbar = function (options) {
+		options = $.extend(
+			{
+				percentage: null,
+				ShowProgressCount: true,
+				duration: 1000,
+				borderRadius: '4px',
+				width: '100%',
+			},
+			options
+		);
+		$.options = options;
+		return this.each(function (index, el) {
+			$(el).html(
+				'<div class="progressbar"><div class="proggress"></div><div class="percentCount"></div></div>'
+			);
+			var lineProgressBarInit = function () {
+				var progressFill = $(el).find('.proggress');
+				var progressBar = $(el).find('.progressbar');
+				progressFill.css({
+					backgroundColor: options.fillBackgroundColor,
+					height: options.height,
+					borderRadius: options.borderRadius,
+				});
+				progressBar.css({
+					width: options.width,
+					backgroundColor: options.backgroundColor,
+					borderRadius: options.borderRadius,
+				});
+				progressFill.animate(
+					{ width: options.percentage + '%' },
+					{
+						step: function (x) {
+							if (options.ShowProgressCount) {
+								$(el)
+									.find('.percentCount')
+									.text(' ' + Math.round(x) + '%');
+							}
+						},
+						duration: options.duration,
+					}
+				);
+			};
+			$(this).waypoint(lineProgressBarInit, {
+				offset: '100%',
+				triggerOnce: true,
+			});
+		});
+	};
+	//fillbar js
+	$('.fillbar').each(function () {
+		var t = $(this),
+			a = $(this).data('percentage');
+		t.rProgressbar({
+			percentage: a,
+		});
+	});
 
     /* Change bacgkround on project section*/
     $('.dl_project_box').on('mouseover',function(){

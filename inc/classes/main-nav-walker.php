@@ -16,6 +16,9 @@ class fabio_Navwalker extends Walker_Nav_Menu  {
             $mega_menu = get_field( 'mega_menu_select', $page->ID, true);
             $mega_menu_width = get_field( 'mega_menu_width', $page->ID, true);
          }
+         // for one page 
+         $url = $page->url;
+         $url_hash = strpos($url, '#');
          
          $li_attributes = '';
          $class_names = $value = '';
@@ -41,13 +44,30 @@ class fabio_Navwalker extends Walker_Nav_Menu  {
         $attributes = ! empty( $page->attr_title ) ? ' title="' . esc_attr($page->attr_title) . '"' : '';
 		$attributes .= ! empty( $page->target ) ? ' target="' . esc_attr($page->target) . '"' : '';
 		$attributes .= ! empty( $page->xfn ) ? ' rel="' . esc_attr($page->xfn) . '"' : '';
-		$attributes .= ! empty( $page->url ) ? ' href="' . esc_attr($page->url) . '"' : '';
+		
+
+        if ($url_hash === 0) {
+            if (is_front_page()) {
+                $attributes .= ' href="' . esc_attr($page->url) . '"';  
+            } else {
+                $attributes .= ' href="' . home_url() . esc_attr($page->url) .'"';
+            }
+		} else {
+			$attributes .= !empty($page->url) ? ' href="' . esc_attr($page->url) . '"' : '';
+		}
+
+			
+
         $attributes .= ( $args->walker->has_children ) ? ' data-toggle="dropdown"' : '';
+
+
         $href_class[] = 'nav-link';
         $href_class[] = ( $args->walker->has_children ) ? 'dropdown-toggle' : '';
        
         $href_class_attr = join(' ', $href_class);
         $attributes .= ' class="'.esc_attr( $href_class_attr ).'"';
+
+
         $has_child_icon = '';
 
         $mega_menu_id = '';
