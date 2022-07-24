@@ -67,10 +67,6 @@ Redux::set_section('fabio_opt', array(
             'title'     => 'Banner Overly Color',
             'mode'      => 'background',
             'output'    => array( '.blog_breadcrumbs_area_two.page-banner .overlay_bg' ),
-            'default'   => array(
-                'color'     => '#000',
-                'alpha'     => .5
-            ),
             'required'  => array('page_banner_toggle', '=', 'show')
         ),
       )
@@ -133,10 +129,6 @@ Redux::set_section('fabio_opt', array(
             'title'     => 'Banner Overly Color',
             'mode'      => 'background',
             'output'    => array( '.blog_breadcrumbs_area_two .overlay_bg' ),
-            'default'   => array(
-                'color'     => '#000',
-                'alpha'     => .5
-            ),
             'required'  => array('blog_banner_toggle', '=', 'show')
         ),
       )
@@ -204,10 +196,6 @@ Redux::set_section('fabio_opt', array(
             'title'     => 'Banner Overly Color',
             'mode'      => 'background',
             'output'    => array( '.blog_breadcrumbs_area_two.blog-single-page .overlay_bg' ),
-            'default'   => array(
-                'color'     => '#000',
-                'alpha'     => .5
-            ),
             'required'  => array('single_blog_banner_toggle', '=', 'show')
         ),
       )
@@ -286,10 +274,6 @@ Redux::set_section('fabio_opt', array(
             'title'     => 'Banner Overly Color',
             'mode'      => 'background',
             'output'    => array( '.blog_breadcrumbs_area_two.search-banner .overlay_bg' ),
-            'default'   => array(
-                'color'     => '#000',
-                'alpha'     => .5
-            ),
             'required'  => array('archive_banner_toggle', '=', 'show')
         ),
       )

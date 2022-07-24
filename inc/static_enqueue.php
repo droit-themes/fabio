@@ -24,10 +24,10 @@ function fabio_scripts() {
 	wp_enqueue_style( 'icomoon-theme', fabio_VEND . '/icomoon/style.css' );
 	wp_enqueue_style( 'nice-select', fabio_VEND . '/nice-select/nice-select.css' );
 	wp_enqueue_style( 'fabio-main-style', get_theme_file_uri('/assets/css/style.min.css'), array(), fabio_VERSION );
-	wp_enqueue_style( 'fabio-custom-style', get_theme_file_uri('/assets/css/custom.css'), array(), fabio_VERSION );
 	wp_enqueue_style( 'fabio-root', get_stylesheet_uri(), array(), fabio_VERSION );
     wp_style_add_data( 'fabio-root', 'rtl', 'replace' );
   }
+  wp_enqueue_style( 'fabio-custom-style', get_theme_file_uri('/assets/css/custom.css'), array(), fabio_VERSION );
   wp_enqueue_style( 'bootstrap', fabio_CSS . '/bootstrap.min.css' );
 
     /**

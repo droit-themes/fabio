@@ -1,4 +1,4 @@
-﻿﻿jQuery(function () {
+﻿jQuery(function () {
 	'use strict';
 
     /*Slick*/
@@ -143,7 +143,7 @@
             scrollingSpeed: 280,
             navigation:false,
             menu: '.navbar-nav',
-            anchors: ['home', 'testimonial', 'blog', 'experience',  'skills', 'product', 'contact'],
+            anchors: ['home', 'experience', 'education', 'service', 'product', 'skills', 'testimonials', 'articles', 'contact'],
             afterRender: function(anchorLink, index){ 
               NavbarColor();
 

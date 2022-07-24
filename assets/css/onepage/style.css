@@ -686,17 +686,17 @@ span.phone {
     width: 115px;
     height: 115px;
     display: inline-flex;
-    background-color: #fff;
+    background-color: #EB9532;
     align-items: center;
     justify-content: center;
     border-radius: 152px;
-    color: #000000;
+    color: #FFFFFF;
     font-size: 27px;
     margin-bottom: 50px;
 }
 
 .video-area-bg a:hover {
-    background-color: #EB9532;
+    background-color: #000000;
     color: #fff;
 }
 
