@@ -25,7 +25,7 @@ function fabio_import_files() {
 
 function fabio_after_import_setup() {
     // Assign menus to their locations.
-    $main_menu = get_term_by( 'name', 'Main Menu', 'nav_menu' );
+    $main_menu = get_term_by( 'name', 'One page menu', 'nav_menu' );
 
     set_theme_mod( 'nav_menu_locations', array(
             'main_menu' => $main_menu->term_id,
@@ -33,7 +33,7 @@ function fabio_after_import_setup() {
     );
 
     // Assign front page and posts page (blog page).
-    $front_page_id = get_page_by_title( 'Home 01' );
+    $front_page_id = get_page_by_title( 'Home Page' );
     $blog_page_id  = get_page_by_title( 'Blog Page' );
 
     // Disable Elementor's Default Colors and Default Fonts
