@@ -81,23 +81,17 @@ $copy_right_content  = isset( $opt['copy_right_text_menu']) ? $opt['copy_right_t
 </nav>
 <?php endif; ?>
 <!-- Navbar Mobile -->
-<?php 
- $aa = 2;
- if($aa == 1):
-?>
+
 <nav class="navbar navbar-mobile">
 	<ion-icon class="close" name="close-outline"></ion-icon>
-	<ul class="navbar-nav navbar-nav-mobile">
 	<?php
-	
 		wp_nav_menu([
 			'theme_location' => 'one_page_menu',
 			'container'      => 'ul',
-			'menu_class'	  =>  'nav nav-item',
+			'menu_class'	  =>  'navbar-nav navbar-nav-mobile nav nav-item',
 			'walker'         => new fabio_onepage_nav_walker()
 		]);
 	?>
-	</ul>
 	<div class="navbar-mobile-footer">
 		<div class="social">
 			<ul class="social-icons mr-auto mr-lg-0 d-none d-sm-block">
@@ -117,5 +111,4 @@ $copy_right_content  = isset( $opt['copy_right_text_menu']) ? $opt['copy_right_t
 		<?php endif; ?>
 	</div>
 </nav>
-<?php endif; ?>
 	
