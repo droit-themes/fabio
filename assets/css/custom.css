@@ -1,4 +1,3 @@
-
 .modishop_deal .dl_countdown_wrapper.dl_style_08 .dl_countdown_inner 
 { width: 50%;}
 
@@ -98,7 +97,7 @@ margin-bottom:0px;
     font-size: 19px;
 }
 .cart_medical span.num {
-    background-color: #eb9532;
+    background-color: #55A2FA;
     border-radius: 100%;
     padding: 0px 3px 0px 3px;
     font-size: 8px;
@@ -383,7 +382,7 @@ display:none;
 	line-height: 40px;
 }
 .svg_color path:hover {
-    fill: #eb9532;
+    fill: #55A2FA;
 }
 .header-cart .cart-btn.nav-link{
 	padding-right: 0px;
@@ -405,10 +404,10 @@ display:none;
     font-weight: 600 !important;
 }
 .cart_medical .cart-product-title-and-price a:hover{
-    color:#eb9532;
+    color:#55A2FC;
 }
 .cart_medical a.button.wc-forward:hover {
-    background: #eb9532!important;
+    background: #066CEC!important;
 }
 .cart_medical .woocommerce-mini-cart__empty-message {
     text-align: center !important;
@@ -421,10 +420,10 @@ display:none;
     color: #404040;
 }
 .cart_medical i.icon-cart:hover{
-    color:#eb9532;
+    color:#55A2FA;
 }
 .copy_text_footer a .elementor-icon-list-text:hover {
-    color: #eb9532 !important;
+    color: #55A2FC !important;
 }
 .cart_medical .header-mini-cart {
     box-shadow: 0px 12px 22px 5px rgb(14 0 40 / 5%);
@@ -453,14 +452,12 @@ font-family: 'Poppins', sans-serif;
     margin-top: 32px !important;
 }
 @media (max-width:425px){
-.logged-in.admin-bar .navbar_fixed .navbar {
-    margin-top: 0px !important;
+    .logged-in.admin-bar .navbar_fixed .navbar {
+        margin-top: 0px !important;
+        }
     }
-}
 
-.navbar.menu_one{
-    max-height: 100px;
-}
+
 
 .navbar_fixed .navbar{
     box-shadow: 0 4px 6px 0 rgb(131 131 131 / 16%);
@@ -672,7 +669,7 @@ a.comment_link {
 	color: #242424 !important;
 }
 .theme-list-view-wrapper .add_to_wishlist i:hover{
-	background: #eb9532 !important;
+	background: #066CEC !important;
 }
 .theme-list-view-wrapper .add_to_wishlist i:hover:before{
 	color: #fff !important;
@@ -771,7 +768,7 @@ a.comment_link {
 }
 
 .woocommerce button.button{
-	background: #eb9532;
+	background: #54A2FA;
   padding: 12px 28px;
   color: #FFFFFF;
   font-weight: 500;
@@ -917,7 +914,7 @@ li.wc-block-grid__product {
     border-top-right-radius: 3px!important;
     border-bottom-right-radius: 3px!important;
     color: #fff!important;
-    background: #eb9532!important;
+    background: #54a2fa!important;
 }
 
 .woocommerce-mini-cart__total.total.d-flex.justify-content-between {
@@ -925,12 +922,12 @@ li.wc-block-grid__product {
 }
 
 .medical-cart thead {
-    background: #eb9532;
+    background: #55a2fc;
     color: #FFFFFF;
 }
 
 .medical-cart thead {
-    background: #eb9532;
+    background: #55a2fc;
     color: #FFFFFF;
 }
 
@@ -1039,11 +1036,11 @@ li.wc-block-grid__product {
 	font-family: "Poppins", Sans-serif;
     font-size: 15px;
     font-weight: 500;
-    background-color: #eb9532;
+    background-color: #54A2FA;
     padding: 16px 45px 16px 45px;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
-    border-color: #eb9532;
+    border-color: #54A2FA;
     border-radius: 3px;
     color: #fff;
     box-shadow: 0 20px 30px 0 rgba(12, 0, 46, 0.02);
@@ -1051,7 +1048,7 @@ li.wc-block-grid__product {
 }
 .woocommerce #review_form #respond .form-submit input:hover{
 	box-shadow: none;
-    background: #eb9532;
+    background: #066CEC;
 }
 .medical_featured_pr_item .hover_item .yith-wcwl-add-to-wishlist a {
     margin: 0 8px;
@@ -1096,7 +1093,7 @@ li.wc-block-grid__product {
 	margin-bottom: 0px !important;
 }
 .medical_featured_pr_list_item .product_featured_content .pr_button{
-	color: #eb9532;
+	color: #54a2fa;
 }
 .woocommerce div.product div.images img{
 	width: auto;
@@ -1127,7 +1124,7 @@ li.wc-block-grid__product {
 	color: #2B2D53 !important;
 }
 .product_list.price_sale.selling_pr .dl_pro_woolist_wrapper .dl_woolist_item:hover .dl_woolist_item_content .dl_title h2{
-	color: #eb9532 !important;
+	color: #54A2FA !important;
 }
 .dl_woolist_item_thumb a{
 	position: inherit;
@@ -1257,7 +1254,7 @@ button.wp-block-search__button {
 }
 
 .shop_details_content .yith-wcwl-add-button:hover{
-	background: #eb9532;
+	background: #54A2FA;
     color: #fff;
 }
 .shop_details_content .yith-wcwl-add-button:hover a{
@@ -1444,7 +1441,7 @@ span.post_date_loop {
     border-radius: 3px;
  }
  .product_page_per_view .pr_view li a.active{
-  	border-color:#eb9532;
+  	border-color:#55A2FC;
  }
  .products  .medical_featured_pr_item.medical_featured_pr_item_style3{
  	background: #F5F6FD;
@@ -1475,7 +1472,7 @@ span.post_date_loop {
 }
 .medical_featured_pr_item .hover_item .yith-wcwl-add-to-wishlist a:visited,.medical_featured_pr_item .hover_item a:hover{
 	color: #fff;
-    background: #eb9532 !important;
+    background: #55a2fc !important;
 } 
 
 .shop_details_content .social-icon li a{
@@ -1498,7 +1495,7 @@ span.post_date_loop {
 	margin: 0px;
 }
 .shop_details_content .social-icon li a:hover{
-	background-color: #eb9532 !important;
+	background-color: #066CEC !important;
     color: #fff !important;
 }
 
@@ -1508,7 +1505,7 @@ span.post_date_loop {
 
 /*  2nd soft-reject */
 .post-page-numbers {
-    background: #eb9532;
+    background: #55a2fc;
     color: #FFFFFF !important;
     text-decoration: none;
     width: 44px;
@@ -1551,6 +1548,12 @@ span.post_date_loop {
     .menu>.nav-item .mobile_dropdown_icon{
         font-size: 18px;
     }
+	#yith-quick-view-content .product_title{
+		font-size:32px;
+	}
+	#yith-quick-view-content .woocommerce button.button{
+	padding: 12px 28px !important;	
+	}
     .menu>.nav-item.submenu .dropdown-menu{
         padding-right: 15px !important;
     }
@@ -1562,7 +1565,7 @@ span.post_date_loop {
 	font-weight:500;
 }
 .grouped_form .single_add_to_cart_button.button{
-	background: #eb9532 !important;
+	background: #54A2FA !important;
     padding: 20px 50px
 }
 
@@ -1582,6 +1585,10 @@ span.post_date_loop {
 
 
 /*  customizer CSS   */ 
+
+.navbar.menu_one{
+    max-height: 100px;
+}
 
 .navbar .nav-item .menu-item a.nav-link {
 	margin-right: 35px;
@@ -1682,10 +1689,10 @@ span.post_date_loop {
 .dl_contact_form_wrapper .dl_form_group_style_02 input , .dl_contact_form_wrapper .dl_form_group_style_02 textarea {
 	width: 100%;
 	color: #fff;
-    font-size: 16px;
+  font-size: 16px;
 	margin: 12px 0;
-    padding: 6px 22px;
-    background: rgba(37, 37, 37, 0.5);
+  padding: 6px 22px;
+  background: rgba(37, 37, 37, 0.5);
 	border: 0;
 }
 
@@ -1765,7 +1772,7 @@ span.post_date_loop {
 		width: inherit;
 	}
 	.navbar.navbar-desctop ul .menu-item a.nav-link{
-	    padding:.5rem 5px;
+	padding:.5rem 5px;
 	}
 }
 
@@ -1792,24 +1799,24 @@ span.post_date_loop {
 	}
 	
 	.min-skill-content {
-        margin-top: 20px;
+    margin-top: 20px;
 	 }
 	.min-skill-content img {
 		margin-bottom: 0;
 	}
 	
 	.testimonials .testimonisla_title {
-        margin-bottom: 50px;
+    margin-bottom: 50px;
 	}
 	.testimonial_slider_items button {
-        top: 355px;
+    top: 355px;
 	}
 
 	.single-box {
 		align-items: flex-start;
 	}
 	.single-box a i {
-        margin-left: 10px;
+    margin-left: 10px;
 	}
 
 }
@@ -1824,17 +1831,18 @@ span.post_date_loop {
 	}
 
 	#education .section-title {
-        margin-bottom: 0;
+    margin-bottom: 0;
 	}
 	#education .btn.slide {
-        margin-top: 0px;
+    margin-top: 0px;
 	}
 	.education-contents {
 		padding-bottom: 10px;
 		padding-left: 0;
 	}
+
 	.service-area {
-        margin-top: 70px;
+    margin-top: 70px;
 	}
 
 	.product-item button.slick-next {
@@ -1851,15 +1859,6 @@ span.post_date_loop {
 	.single-box {
 		padding: 5px 0;
 	}
-}
-
-.blog_breadcrumbs_area_two, .blog_breadcrumbs_area_two.archive-banner, .blog_breadcrumbs_area_two.banner-404, .blog_breadcrumbs_area_two.blog-single-page, .blog_breadcrumbs_area_two.page-banner{
-    background-color: #f6d0a5 !important;
-}
-
-.navbar-toggler:focus, .form-control:focus{
-    box-shadow: none !important;
-    border-color: #FFFFFF !important;
 }
 
 

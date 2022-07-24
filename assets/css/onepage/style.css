@@ -1,3 +1,8 @@
+@import url('bootstrap.min.css');
+@import url('magnific-popup.css');
+@import url('owl.carousel.min.css');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Noto+Sans:wght@400;700&display=swap');
+
 
 body {
     font-family: 'DM Sans', sans-serif;
@@ -21,6 +26,8 @@ button:focus {outline:0;}
 
 
 /* 1.2 Typography */
+
+
 
 h1,
 .h1 {
@@ -154,9 +161,9 @@ a:focus {
 }
 
 .navbar {
-    position: absolute;
+    position: absolute !important;
     z-index: 10;
-    width: 100%;
+    width: 100% !important;
     padding: 0 1.5rem;
     height: 4.7rem;
     top: 15px;
@@ -212,7 +219,7 @@ a:focus {
 }
 
 .navbar-brand img {
-    width: 90px;
+    width: 85px;
     margin-top: 15px;
 }
 
@@ -450,7 +457,7 @@ span.phone {
     align-items: baseline;
     flex-wrap: unset;
     padding: 2.5rem 2.6rem 1.3rem 4.4rem;
-    position: fixed;
+    position: fixed !important;
     top: 0;
     bottom: 0;
     right: 0;
@@ -697,7 +704,7 @@ span.phone {
 
 .video-area-bg a:hover {
     background-color: #000000;
-    color: #fff;
+    color: #FFFFFF;
 }
 
 .info-content span {
