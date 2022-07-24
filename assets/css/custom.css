@@ -280,6 +280,14 @@ display:none;
     top: -42px !important;
     left: 0 !important;
 }
+
+.navbar_fixed .navbar{
+    top: 0px;
+}
+img.site-logo {
+   width: 75px;
+}
+
 }
 @media(max-width:575px){
 .menu_icon_class i.ti-angle-down {
@@ -404,7 +412,7 @@ display:none;
     font-weight: 600 !important;
 }
 .cart_medical .cart-product-title-and-price a:hover{
-    color:#55A2FC;
+    color:#eb9532;
 }
 .cart_medical a.button.wc-forward:hover {
     background: #066CEC!important;
@@ -423,7 +431,7 @@ display:none;
     color:#55A2FA;
 }
 .copy_text_footer a .elementor-icon-list-text:hover {
-    color: #55A2FC !important;
+    color: #eb9532 !important;
 }
 .cart_medical .header-mini-cart {
     box-shadow: 0px 12px 22px 5px rgb(14 0 40 / 5%);
@@ -922,12 +930,12 @@ li.wc-block-grid__product {
 }
 
 .medical-cart thead {
-    background: #55a2fc;
+    background: #eb9532;
     color: #FFFFFF;
 }
 
 .medical-cart thead {
-    background: #55a2fc;
+    background: #eb9532;
     color: #FFFFFF;
 }
 
@@ -1113,7 +1121,6 @@ li.wc-block-grid__product {
 @media (max-width: 1024px){
 	.menu > .nav-item.submenu .dropdown-menu{
         padding-left: 15px !important;
-        position: relative;
         left:0;
     }
 }
@@ -1441,7 +1448,7 @@ span.post_date_loop {
     border-radius: 3px;
  }
  .product_page_per_view .pr_view li a.active{
-  	border-color:#55A2FC;
+  	border-color:#eb9532;
  }
  .products  .medical_featured_pr_item.medical_featured_pr_item_style3{
  	background: #F5F6FD;
@@ -1472,7 +1479,7 @@ span.post_date_loop {
 }
 .medical_featured_pr_item .hover_item .yith-wcwl-add-to-wishlist a:visited,.medical_featured_pr_item .hover_item a:hover{
 	color: #fff;
-    background: #55a2fc !important;
+    background: #eb9532 !important;
 } 
 
 .shop_details_content .social-icon li a{
@@ -1495,17 +1502,17 @@ span.post_date_loop {
 	margin: 0px;
 }
 .shop_details_content .social-icon li a:hover{
-	background-color: #066CEC !important;
+	background-color: #eb9532 !important;
     color: #fff !important;
 }
 
 .blog_breadcrumbs_area_two, .blog_breadcrumbs_area_two.archive-banner, .blog_breadcrumbs_area_two.banner-404, .blog_breadcrumbs_area_two.blog-single-page, .blog_breadcrumbs_area_two.page-banner{
-    background-color: #4290ec26 !important;
+    background-color: #eb9532b3 !important;
 }
 
 /*  2nd soft-reject */
 .post-page-numbers {
-    background: #55a2fc;
+    background: #eb9532;
     color: #FFFFFF !important;
     text-decoration: none;
     width: 44px;
@@ -1534,6 +1541,9 @@ span.post_date_loop {
 }
 
 @media (max-width: 991px){	
+    .menu>.nav-item{
+        padding-left: 15px;
+    }
     .menu>.nav-item i {
         display: block;
         position: absolute;
@@ -1861,5 +1871,16 @@ span.post_date_loop {
 	}
 }
 
+.navbar-brand{
+    position: absolute;
+}
 
+.navbar-toggler:focus, .form-control:focus{
+    box-shadow: none !important;
+    border-color: #FFFFFF !important;
+}
+
+.wp-block-search__label{
+	display:none;
+}
 
